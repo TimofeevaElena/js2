@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Julius Sans One', sans-serif;
+    color: #000000;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+h3{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 25px;
+}
+.news{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.post-id{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.post{
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.id{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.534);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.body{
+    font-size: 18px;
+}
+.link{
+    font-size: 20px;
+    color: #000000;
+}
